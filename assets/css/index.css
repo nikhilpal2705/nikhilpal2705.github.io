@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: linear-gradient(-45deg, #000000, #000000, #330101, #330101) center center;
+	background-size: 400% 400%;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-animation: gradient 8s ease infinite;
+	animation: gradient 8s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#loading {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background: #330101;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#spinner {
+	animation: rotate 0.56s infinite linear;
+	width: 50px;
+	height: 50px;
+	border: 12px solid #fff;
+	border-bottom: 12px solid #330101;
+	border-radius: 50%;
+	margin: 0;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#menu {
+	width: 100%;
+	text-align: center;
+	margin: 6vh 0px;
+	display: none;
+}
+
+#menu a {
+	margin: 0px 2%;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+#middle {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	padding-bottom: 10vh;
+}
+
+#middle h1 {
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+#about {
+	width: 10vw;
+	height: 10vw;
+	text-align: center;
+	font-size: 25px;
+	transform: rotate(-90deg);
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 25%;
+	bottom: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 4;
+	transition: 0.3s ease-in-out;
+	border-radius: 0px 0px 100px 100px;
+}
+
+#blog {
+	width: 10vw;
+	height: 10vw;
+	text-align: center;
+	font-size: 25px;
+	transform: rotate(-90deg);
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 55%;
+	bottom: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 4;
+	transition: 0.3s ease-in-out;
+	border-radius: 0px 0px 100px 100px;
+}
+
+#work {
+	width: 10vw;
+	height: 10vw;
+	text-align: center;
+	font-size: 25px;
+	transform: rotate(90deg);
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	right: 0;
+	top: 25%;
+	bottom: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 4;
+	transition: 0.3s ease-in-out;
+	border-radius: 0px 0px 100px 100px;
+}
+
+#resume {
+	width: 10vw;
+	height: 10vw;
+	text-align: center;
+	font-size: 25px;
+	transform: rotate(90deg);
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	right: 0;
+	top: 55%;
+	bottom: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 4;
+	transition: 0.3s ease-in-out;
+	border-radius: 0px 0px 100px 100px;
+}
+
+#contact {
+	width: 15vw;
+	height: 4vw;
+	text-align: center;
+	font-size: 25px;
+	background: transparent;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 42vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 4;
+	transition: 0.3s ease-in-out;
+	border-radius: 25px 25px 0px 0px;
+}
+
+#about:hover {
+	background: rgba(255,50,50,0.9);
+	cursor: pointer;
+}
+
+#blog:hover {
+	background: rgba(255,50,50,0.9);
+	cursor: pointer;
+}
+
+#work:hover {
+	background: rgba(255,50,50,0.9);
+	cursor: pointer;
+}
+
+#resume:hover {
+	background: rgba(255,50,50,0.9);
+	cursor: pointer;
+}
+
+#contact:hover {
+	background: rgba(255,50,50,0.9);
+	cursor: pointer;
+}
+
+#middle table {
+	width: 30%;
+	margin: 6vh auto;
+}
+
+#middle table tr td {
+	text-align: center;
+}
+
+.contact {
+	color: #fff;
+	font-size: 38px;
+	border-radius: 50%;
+	transition: 0.3s ease-in-out;
+	margin: 0px 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.container {
+	width: 90vw;
+	height: 90vh;
+	padding: 5vh 5vw;
+	background: #330101;
+	color: #fff;
+	z-index: 9;
+	position: fixed;
+	max-height: 100vh;
+	overflow-y: auto;
+	display: none;
+}
+
+.container div {
+	font-size: 25px;
+	margin: 15px 15px;
+	transition: 0.3s ease-in-out;
+}
+
+.container div:hover {
+	cursor: pointer;
+}
+
+.container section {
+	margin: 8vh 0px;
+}
+
+.rbox {
+	width: 90%;
+	border: 2px solid #f00606;
+	border-radius: 15px;
+	padding: 50px;
+}
+
+.rbox img {
+	width: 25%;
+	height: 25%;
+}
+
+.rbox a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #f00606;
+}
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+
+.cell {
+	min-height: 75px;
+	flex-grow: 1;
+	flex-basis: 100%;
+	border: 2px solid #f00606;
+	border-radius: 15px;
+	padding: 50px;
+}
+
+.cell a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #f00606;
+}
+
+.icon {
+	color: #ffff;
+}
+
+.icon:hover {
+	cursor: pointer;
+	color: rgb(255, 50, 50);
+}
+
+#button {
+	color: #fff;
+}
+
+#button:hover {
+	cursor: pointer;
+	color: rgb(255, 50, 50);
+}
+
+.container h1 {
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.container p {
+	font-size: 21px;
+}
+
+::placeholder {
+	color: #fff;
+}
+
+#footer {
+	color: #fff;
+	width: 92vw;
+	padding: 5vh 4vw;
+	text-align: right;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#footer a {
+	color: rgb(255, 50, 50);
+	text-decoration: none;
+}
+
+#particles-js {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(255, 50, 50);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 50, 50,0.8);
+}
+
+::selection {
+	color: #fff;
+	background: rgb(255, 50, 50);
+}
+
+@media (max-width: 800px) {
+ 
+	#about {
+		display: none;
+	}
+
+	#blog {
+		display: none;
+	}
+
+	#contact {
+		display: none;
+	}
+
+	#work {
+		display: none;
+	}
+
+	#resume {
+		display: none;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#middle {
+		width: 90vw;
+		padding: 0px 5vw;
+	}
+
+	#middle table {
+		width: 80%;
+	}
+
+	#menu {
+		display: inline-block;
+	}
+
+	#onlywide {
+		display: none !important;
+	}
+
+	.row {
+		flex-wrap: wrap;
+	}
+}
