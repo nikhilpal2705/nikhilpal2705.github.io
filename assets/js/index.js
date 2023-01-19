@@ -14,9 +14,25 @@ function closeabout() {
 	}, 400);
 }
 
-function showblog() {
-	window.open("blog.html");
+function showskill() {
+	$("#skill_container").css("display", "inherit");
+	$("#skill_container").addClass("animated slideInLeft");
+	setTimeout(function() {
+		$("#skill_container").removeClass("animated slideInLeft");
+	}, 400);
 }
+
+function closeskill() {
+	$("#skill_container").addClass("animated slideOutLeft");
+	setTimeout(function() {
+		$("#skill_container").removeClass("animated slideOutLeft");
+		$("#skill_container").css("display", "none");
+	}, 400);
+}
+
+// function showblog() {
+// 	window.open("https://nikhilpal2705.github.io/blog");
+// }
 
 function showwork() {
 	$("#work_container").css("display", "inherit");
@@ -35,7 +51,7 @@ function closework() {
 }
 
 function showresume() {
-	window.open("https://drive.google.com/");
+	window.open("https://drive.google.com/drive/folders/1ShUGu7phuU3IquAm8sgZ8kkeNOzv5U0_?usp=share_link");
 }
 
 function showcontact() {
