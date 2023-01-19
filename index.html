@@ -7,9 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Personal website of Nikhil Suryavanshi">
 	<title>Nikhil Suryavanshi | nikhilpal2705</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/index.css"> </head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css"> </head>
 
 <body>
 	<div id="loading">
@@ -17,7 +19,7 @@
 	</div>
 	<div id="particles-js"></div>
 	 <a id="about" onclick="showabout()">about</a>
-	 <a id="blog" onclick="showblog()">blog</a>
+	 <a id="skill" onclick="showskill()">skills</a>
 	 <a id="work" onclick="showwork()">projects</a>
 	 <a id="resume" onclick="showresume()">resume</a>
 	 <a id="contact" onclick="showcontact()">contact</a>
@@ -25,11 +27,11 @@
 		<h1>Nikhil Suryavanshi</h1>
 		<div id="menu">
 		 <a onclick="showabout()">about</a>
-		 <a onclick="showblog()">blog</a>
+		 <a onclick="showskill()">skill</a>
 		 <a onclick="showwork()">projects</a>
 		 <a onclick="showresume()">resume</a>
 		 <a onclick="showcontact()">contact</a>
-    </div>
+    	</div>
 		<table>
 			<tr>
 				<td>
@@ -74,26 +76,60 @@
 			<div class="row">
 				<div class="cell"> <a href="https://github.com/nikhilpal2705/VTS"><h2>Vehicle Tracking System</h2></a>
 					<p>• Developed an Android app for client which uses device GPS and update its location in database for active monitoring and efficient transportation of goods.<br> <br>
-						• Created Webpage for admin which uses Google Map API and Firebase database for real-time tracking and managing client</p>
+						• Created Webpage for admin which uses Google Map API and Firebase database for real-time tracking and managing client
+					</p>
+					<div id="used">
+						<div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+						<div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+						<div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Android Studio</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Firebase Database</div>
+					</div>
 				</div>
 				<div class="cell"> <a href="https://github.com/nikhilpal2705?tab=repositories"><h2>Android Custom Rom Dev</h2></a>
 					<p>• Developed AOSP based custom ROM for multiple Android devices. <br> <br>
 						• Utilizes full potential of device hardware by replacing OEMs stock ROM without relying on OEM for latest updates.
 					</p>
+					<div id="used">
+						<div><i class="fas fa-circle"></i>&nbsp;GCP</div>
+						<div><i class="fas fa-circle"></i>&nbsp;AWS</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Linux</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="cell"> <a href="https://github.com/nikhilpal2705?tab=repositories"><h2>Simple Mario Game</h2></a>
-					<p>Python based simple Mario Game which utilizes PyGame Library.</p>
+					<p>Python based simple Mario Game which utilizes PyGame Library.
+					</p>
+					<div id="used">
+						<div><i class="fas fa-circle"></i>&nbsp;Python</div>
+						<div><i class="fas fa-circle"></i>&nbsp;VS Code</div>
+					</div>
 				</div>
 				<div class="cell"> <a href="https://github.com/nikhilpal2705/nikhilpal2705.github.io"><h2>This website</h2></a>
-					<p>It is based on a template by <a href="https://imfunniee.github.io">@imfunniee</a>, over which changes have been made.</p>
+					<p>It is based on a template by <a href="https://imfunniee.github.io">@imfunniee</a>, over which changes have been made.
+					</p>
+					<div id="used">
+						<div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+						<div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+						<div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="cell"> <a href="https://github.com/nikhilpal2705/nikhilpal2705"><h2>Open Source Contribution</h2></a>
-					<p>Active contributor of open-source projects such as GNOME LibGWeather, Userge Telegram userbot, Universal Android Debloater on GitLab and GitHub which uses Python, XML, JSON.</p>
+					<p>Active contributor of open-source projects such as GNOME LibGWeather, Userge Telegram userbot, Universal Android Debloater on GitLab and GitHub which uses Python, XML, JSON.
+					</p>
+					<div id="used">
+						<div><i class="fas fa-circle"></i>&nbsp;Python</div>
+						<div><i class="fas fa-circle"></i>&nbsp;XML</div>
+						<div><i class="fas fa-circle"></i>&nbsp;JSON</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GitLab</div>
+					</div>
 				</div>
 				<div class="cell">
 					<h2>More soon...</h2>
@@ -113,9 +149,76 @@
 			<p> Hey there,
 				<br> &nbsp; &nbsp; &nbsp; I am Nikhil Suryavanshi from Uttar Pradesh, India completed B.Tech in Computer Science (2014-2018).
 				I like contributing back to the FOSS community, in my free time I work on several projects in tech communities.
-				I am actively learning more about Python, MySQL,HTML, CSS, JavaScript, Linux and aspire to become a Web Developer or a Software engineer.
-				I enjoy my work especially when it comes to Computer Science. I like to learn new things and very adaptive towards ever changing technology. If I don’t know the answer about something, I don’t hesitate to dig deep to find the answer.
+				I am actively learning more about Python, MySQL, HTML, CSS, JavaScript, Linux and aspire to become a Web Developer or a Software engineer.
+				I enjoy my work especially when it comes to Computer Science. I like to learn new things and very adaptive towards ever changing technology. 
+				If I don’t know the answer about something, I don’t hesitate to dig deep to find the answer.
 			</p>
+		</section>
+	</div>
+	<div id="skill_container" class="container">
+		<div onclick="closeskill()" id="button">
+			<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+			</svg>
+		</div>
+		<h1>skills.</h1>
+		<section>
+			<div class="row">
+				<div class="scell">
+					<h2>Programming</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;C</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Core Java</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Python</div>
+					</div>
+				</div>
+				<div class="scell">
+					<h2>Web Development</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+						<div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+						<div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+						<div><i class="fas fa-circle"></i>&nbsp;XML</div>
+					</div>
+				</div>
+				<div class="scell">
+					<h2>Database</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;MySQL</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Firebase Database</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="scell">
+					<h2>Developer Tools</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;Git</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+						<div><i class="fas fa-circle"></i>&nbsp;VS Code</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Android Studio</div>
+					</div>
+				</div>
+				<div class="scell">
+					<h2>Operating Systems</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;Android</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Linux</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Windows</div>
+						<div><i class="fas fa-circle"></i>&nbsp;macOS</div>
+					</div>
+				</div>
+				<div class="scell">
+					<h2>Familiar with</h2>
+					<div id="know">
+						<div><i class="fas fa-circle"></i>&nbsp;Cloud Computing</div>
+						<div><i class="fas fa-circle"></i>&nbsp;AWS</div>
+						<div><i class="fas fa-circle"></i>&nbsp;GCP</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Heroku</div>
+						<div><i class="fas fa-circle"></i>&nbsp;Data Structures and Algorithms</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	</div>
 	<div id="contact_container" class="container">
