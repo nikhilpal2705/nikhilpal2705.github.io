@@ -107,7 +107,7 @@ body {
 }
 
 #middle h1 {
-	font-size: 60px;
+	font-size: 70px;
 	text-decoration: underline;
 }
 
@@ -305,7 +305,7 @@ body {
 	min-height: 75px;
 	flex-grow: 1;
 	flex-basis: 100%;
-	border: 2px solid #fd7777;
+	border: 2px solid white;
 	border-radius: 30px;
 	padding: 40px;
 	padding-top: 15px;
@@ -320,7 +320,7 @@ body {
 	min-height: 75px;
 	flex-grow: 1;
 	flex-basis: 100%;
-	border: 2px solid #fd7777;
+	border: 2px solid white;
 	border-radius: 40px;
 	padding: 10px;
 }
@@ -456,7 +456,7 @@ body {
 #used div{
     font-size:14px !important;
     display:inline-block;
-    padding:8px 10px;
+    padding:8px 8px;
     border:2px solid #fff;
     margin:6px 4px;
     border-radius:50px;
@@ -469,4 +469,21 @@ body {
     border:2px solid #fff;
     margin:6px 4px;
     border-radius:50px;
+}
+
+.btn_one {
+    font-size:20px;
+    color:#fff;
+    background:transparent;
+    border:3px solid #fff;
+    padding:8px 40px;
+    border-radius:80px;
+    font-weight:bold;
+    margin:2vh 10px;
+    transition:0.4s ease-in-out;
+}
+.btn_one:hover {
+    cursor:pointer;
+    color:#330101;
+    background:#fff;
 }
