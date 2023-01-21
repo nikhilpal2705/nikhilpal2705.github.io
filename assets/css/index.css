@@ -481,4 +481,12 @@ body {
 	.container div {
 		margin: 5px -8px;
 	}
+
+	* {
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	a, button {
+		cursor: pointer;
+	  }
 }
