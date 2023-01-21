@@ -305,6 +305,11 @@ body {
     padding: 10px;
 }
 
+a:hover {
+    cursor: pointer;
+    color: rgb(255, 50, 50);
+}
+
 .cell {
     min-height: 75px;
     flex-grow: 1;
@@ -341,7 +346,7 @@ body {
 }
 
 .scell h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .social {
