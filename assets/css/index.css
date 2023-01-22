@@ -319,6 +319,7 @@ a:hover {
     padding: 20px;
     padding-top: 0px;
     text-align: center;
+    background: linear-gradient(to bottom, #220000cc, #440000);
 }
 
 .cell a {
@@ -343,11 +344,13 @@ a:hover {
     padding: 10px;
     padding-top: 0px;
     text-align: center;
+    background: linear-gradient(to bottom, #220000cc, #440000);
 }
 
 .scell h2 {
     font-size: 33px;
     font-weight: bold;
+    margin-top: 15px;   
 }
 
 .social {
@@ -417,11 +420,10 @@ a:hover {
 #skillset div {
     font-size: 17px !important;
     font-weight: bold;
-    color: #330101;
-    background: rgb(205, 205, 205);
+    background: linear-gradient(to bottom, #330101, #220000cc);
+    border: 1px solid white;
     display: inline-block;
     padding: 9px 10px 10px 8px;
-    border: 2px solid rgba(255, 255, 255, 0);
     margin: 6px 4px;
     border-radius: 50px;
 }
@@ -429,7 +431,7 @@ a:hover {
 .btn_one {
     font-size: 20px;
     color: #330101;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(200, 200, 200);
     border: 3px solid rgba(255, 255, 255, 0);
     padding: 8px 40px;
     border-radius: 80px;
