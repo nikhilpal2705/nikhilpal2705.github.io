@@ -327,7 +327,7 @@ a:hover {
 }
 
 .cell a:hover {
-    color: #f00606;
+    color: rgb(255, 50, 50);
 }
 
 .cell p {
@@ -346,7 +346,8 @@ a:hover {
 }
 
 .scell h2 {
-    font-size: 30px;
+    font-size: 33px;
+    font-weight: bold;
 }
 
 .social {
@@ -414,19 +415,22 @@ a:hover {
 }
 
 #skillset div {
-    font-size: 15px !important;
+    font-size: 17px !important;
+    font-weight: bold;
+    color: #330101;
+    background: rgb(205, 205, 205);
     display: inline-block;
-    padding: 10px 10px;
-    border: 2px solid white;
+    padding: 9px 10px 10px 8px;
+    border: 2px solid rgba(255, 255, 255, 0);
     margin: 6px 4px;
     border-radius: 50px;
 }
 
 .btn_one {
     font-size: 20px;
-    color: white;
-    background: transparent;
-    border: 3px solid white;
+    color: #330101;
+    background: rgba(255, 255, 255, 0.75);
+    border: 3px solid rgba(255, 255, 255, 0);
     padding: 8px 40px;
     border-radius: 80px;
     font-weight: bold;
