@@ -4,7 +4,7 @@ body {
     padding: 0px;
     margin: 0px;
     background: linear-gradient(-45deg, #000000, #000000, #330101, #330101) center center;
-    background-size: 400% 400%;
+    background-size: 300% 300%;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -447,6 +447,11 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+    body {
+        background: linear-gradient(180deg, #000000, #000000, #330101, #330101) center center;
+        background-size: 200% 200%;
+    }
+
     #about {
         display: none;
     }
