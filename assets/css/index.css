@@ -107,7 +107,7 @@ body {
 }
 
 #middle h1 {
-    font-size: 58px;
+    font-size: 70px;
     text-decoration: underline;
 }
 
@@ -478,6 +478,11 @@ a:hover {
 
     #middle table {
         width: 80%;
+    }
+
+    #middle h1 {
+        font-size: 55px;
+        text-decoration: underline;
     }
 
     #menu {
