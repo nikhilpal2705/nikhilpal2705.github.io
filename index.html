@@ -19,20 +19,20 @@
         <div id="spinner"></div>
     </div>
     <div id="particles-js"></div>
-    <a id="about" onclick="showabout()">about</a>
-    <a id="skill" onclick="showskill()">skills</a>
-    <a id="work" onclick="showwork()">projects</a>
-    <a id="resume" onclick="showresume()">resume</a>
-    <a id="contact" onclick="showcontact()">contact</a>
+    <a id="about" class="about">about</a>
+    <a id="skill" class="skill">skills</a>
+    <a id="work" class="work">projects</a>
+    <a id="resume" class="resume">resume</a>
+    <a id="contact" class="contact">contact</a>
     <div id="middle" class="animate__animated animate__zoomInDown" style="animation-delay:0.25s;">
         <h1>Nikhil <br> Suryavanshi</h1>
         <h2>Full Stack Developer</h2>
         <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showskill()">skill</a>
-            <a onclick="showwork()">projects</a>
-            <a onclick="showresume()">resume</a>
-            <a onclick="showcontact()">contact</a>
+            <a class="about">about</a>
+            <a class="skill">skill</a>
+            <a class="work">projects</a>
+            <a class="resume">resume</a>
+            <a class="contact">contact</a>
         </div>
         <table>
             <tr>
@@ -56,7 +56,7 @@
         </table>
     </div>
     <div id="about_container" class="container">
-        <a onclick="closeabout()" id="button">
+        <a class="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
@@ -79,196 +79,27 @@
         </section>
     </div>
     <div id="skill_container" class="container">
-        <a onclick="closeskill()" id="button">
+        <a class="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
             </svg>
         </a>
         <h1>skills.</h1>
-        <section>
-            <div class="row">
-                <div class="scell">
-                    <h2>Language</h2>
-                    <div id="skillset">
-                        <div><i class="devicon-c-plain"></i>&nbsp;&nbsp;C</div>
-                        <div><i class="devicon-python-plain"></i>&nbsp;&nbsp;Python</div>
-                        <div><i class="devicon-java-plain"></i>&nbsp;&nbsp;Core Java</div>
-                    </div>
-                </div>
-                <div class="scell">
-                    <h2>Web Development</h2>
-                    <div id="skillset">
-                        <div><i class="devicon-html5-plain"></i>&nbsp;&nbsp;HTML5</div>
-                        <div><i class="devicon-javascript-plain"></i>&nbsp;&nbsp;JavaScript</div> <br>
-                        <div><i class="devicon-jquery-plain"></i>&nbsp;&nbsp;jQuery</div>
-                        <div><i class="devicon-vuejs-plain"></i>&nbsp;&nbsp;Vue3</div>
-                        <div><i class="devicon-nodejs-plain"></i>&nbsp;&nbsp;Node JS</div>
-                        <div><i class="devicon-php-plain"></i>&nbsp;&nbsp;php</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;&nbsp;ajax</div>
-                        <div><i class="devicon-css3-plain"></i>&nbsp;&nbsp;CSS</div>
-                        <!-- <div><i class="fas fa-file-code"></i>&nbsp;&nbsp;XML</div> -->
-                    </div>
-                </div>
-                <div class="scell">
-                    <h2>Database</h2>
-                    <div id="skillset">
-                        <div><i class="devicon-mysql-plain"></i>&nbsp;&nbsp;MySQL</div> <br>
-                        <div><i class="devicon-mongodb-plain"></i>&nbsp;&nbsp;MongoDB</div> <br>
-                        <div><i class="devicon-sequelize-plain"></i>&nbsp;&nbsp;Sequelize ORM</div> <br>
-                        <!-- <div><i class="devicon-firebase-plain"></i>&nbsp;&nbsp;Firebase DB</div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="scell">
-                    <h2>Developer Tool</h2>
-                    <div id="skillset">
-                        <div><i class="devicon-vscode-plain"></i>&nbsp;&nbsp;VS Code</div>
-                        <div><i class="devicon-git-plain"></i>&nbsp;&nbsp;Git</div>
-                        <div><i class="devicon-github-plain"></i>&nbsp;&nbsp;GitHub</div>
-                        <div><i class="devicon-gitlab-plain"></i>&nbsp;&nbsp;GitLab</div>
-                        <div><i class="devicon-androidstudio-plain"></i>&nbsp;&nbsp;Android Studio</div>
-                    </div>
-                </div>
-                <div class="scell">
-                    <h2>Familiar With</h2>
-                    <div id="skillset">
-                        <div><i class="fas fa-circle"></i>&nbsp;&nbsp;Data Structures and Algorithms</div> <br>
-                        <div><i class="fab fa-aws"></i>&nbsp;&nbsp;AWS</div>
-                        <div><i class="devicon-heroku-plain"></i>&nbsp;&nbsp;Heroku</div>
-                    </div>
-                </div>
-                <div class="scell">
-                    <h2>Operating System</h2>
-                    <div id="skillset">
-                        <div><i class="devicon-android-plain"></i>&nbsp;&nbsp;Android</div>
-                        <div><i class="devicon-linux-plain"></i>&nbsp;&nbsp;Linux</div> <br>
-                        <div><i class="devicon-windows8-plain"></i>&nbsp;&nbsp;Windows</div>
-                        <div><i class="devicon-apple-plain"></i>&nbsp;&nbsp;macOS</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section id="skills_section"></section>
     </div>
     <div id="work_container" class="container">
-        <a onclick="closework()" id="button">
+        <a class="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
             </svg>
         </a>
         <h1>projects.</h1>
-        <section>
-            <div class="row">
-                <div class="cell">
-                    <h2><a href="https://github.com/nikhilpal2705/vts" target="_blank" rel="noopener noreferrer">
-                            Vehicle Tracking System </a></h2>
-                    <p>
-                        • Developed an android app for client (driver) which uses the device's GPS and updates its
-                        location in the database for active monitoring and efficient transportation of goods. <br><br>
-                        • Developed a full-stack web application for admin to manage the driver and view the driver's
-                        real-time location. <br><br>
-                        • Implemented common database for admin's web application and driver's android app using
-                        Firebase database.
-                    </p>
-                    <div id="techused">
-                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Android Studio</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Firebase Database</div>
-                    </div>
-                </div>
-                <div class="cell">
-                    <h2><a href="https://github.com/nikhilpal2705/" target="_blank" rel="noopener noreferrer">
-                            Open Source Contribution</a></h2>
-                    <p>
-                        • Contributed to GNOME LibGWeather which provides weather details for the locations available in
-                        an XML file using METAR data. <br><br>
-                        • Contributed and build a telegram userbot which gives users more functionality and also helps
-                        in automating the task. <br><br>
-                        • Contributed to Universal Android Debloater on GitHub, which provides a GUI app to remove
-                        bloatware from android devices.
-                    </p>
-                    <div id="techused">
-                        <div><i class="fas fa-circle"></i>&nbsp;Python</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;XML</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;JSON</div><br>
-                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;GitLab</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cell">
-                    <h2><a href="https://github.com/nikhilpal2705?tab=repositories" target="_blank"
-                            rel="noopener noreferrer">
-                            Simple Mario Game</a></h2>
-                    <p>
-                        • Developed Mario Game as an Internship project. <br><br>
-                        • The game includes a moving dragon which throws fireballs and players have to save Mario from
-                        those fireballs using direction keys. <br><br>
-                        • Implemented multiple difficulty levels as the game progresses and it has three lives for the
-                        player.
-                    </p>
-                    <div id="techused">
-                        <div><i class="fas fa-circle"></i>&nbsp;Python</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;PyCharm</div>
-                    </div>
-                </div>
-                <div class="cell">
-                    <h2><a href="https://github.com/nikhilpal2705/device_motorola_osprey" target="_blank"
-                            rel="noopener noreferrer">
-                            Android Custom Rom Development</a></h2>
-                    <p>
-                        • Developed AOSP based custom ROM for multiple Android devices. <br><br>
-                        • Utilizing the full potential of device hardware by replacing the OEM's stock ROM without
-                        relying on OEM for the latest updates.
-                    </p>
-                    <div id="techused">
-                        <div><i class="fas fa-circle"></i>&nbsp;GCP</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;AWS</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Linux</div>
-                    </div>
-                    <a href="https://forum.xda-developers.com/t/rom-osprey-7-1-2-halogenos-7-1-unofficial-08th-september.3667265/"
-                        target="_blank" rel="noopener noreferrer">
-                        <button class="btn_one">Link 1</button></a>
-                    <a href="https://forum.xda-developers.com/t/rom-osprey-7-1-2_r29-aosip-6-3-oms-unofficial-23rd-august.3641652/"
-                        target="_blank" rel="noopener noreferrer">
-                        <button class="btn_one">Link 2</button></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="cell">
-                    <h2><a href="https://github.com/nikhilpal2705/nikhilpal2705.github.io" target="_blank"
-                            rel="noopener noreferrer">
-                            This website</a></h2>
-                    <p>
-                        It is based on a template by <a href="https://imfunniee.github.io" target="_blank"
-                            rel="noopener noreferrer">@imfunniee</a>, over which changes have been made.
-                    </p>
-                    <div id="techused">
-                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
-                    </div>
-                </div>
-                <div class="cell">
-                    <h2>More soon...</h2>
-                    <p>
-                        I am always looking forward to contribute to other projects and maintaining my own.
-                    </p>
-                </div>
-            </div>
-        </section>
+        <section id="projects_section"></section>
     </div>
     <div id="contact_container" class="container">
-        <a onclick="closecontact()" id="button">
+        <a class="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />

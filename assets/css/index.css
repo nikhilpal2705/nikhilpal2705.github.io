@@ -366,12 +366,12 @@ a:hover {
     color: rgb(255, 50, 50);
 }
 
-#button {
+.button {
     color: white;
     margin-left: 0px;
 }
 
-#button:hover {
+.button:hover {
     cursor: pointer;
     color: rgb(255, 50, 50);
 }
