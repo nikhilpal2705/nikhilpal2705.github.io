@@ -1,25 +1,24 @@
 {
     "projects": [
         {
-            "heading": "Vehicle Tracking System",
-            "link": "https://github.com/nikhilpal2705/vts",
+            "heading": "AgroCare",
+            "link": "https://github.com/nikhilpal2705/AgroCare",
             "description": [
-                "Developed an android app for client (driver) which uses the device's GPS and updates its location in the database for active monitoring and efficient transportation of goods.",
-                "Developed a full-stack web application for admin to manage the driver and view the driver's real-time location.",
-                "Implemented common database for admin's web application and driver's android app using Firebase database."
+                "Designed and implemented interactive, responsive user interfaces using React.js for intuitive product management and user interactions.",
+                "Built RESTful APIs using Spring Boot to handle user data and authentication requests efficiently.",
+                "Utilized MySQL as a database to store and manage product information and user data.",
+                "Implemented authentication and authorization using Spring Security and JWT to safeguard user data."
             ],
             "techUsed": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Bootstrap",
-                "Android Studio",
-                "Firebase Database"
+                "React JS",
+                "Spring Boot",
+                "MySQL",
+                "Ant Design"
             ]
         },
         {
             "heading": "Open Source Contribution",
-            "link": "https://github.com/nikhilpal2705/",
+            "link": "https://github.com/nikhilpal2705",
             "description": [
                 "Contributed to GNOME LibGWeather which provides weather details for the locations available in an XML file using METAR data.",
                 "Contributed and built a telegram userbot which gives users more functionality and also helps in automating the task.",
@@ -34,8 +33,22 @@
             ]
         },
         {
+            "heading": "GFG Stats Card",
+            "link": "https://github.com/nikhilpal2705/GeeksForGeeks-Stats-Card",
+            "description": [
+                "Built a dynamic web application that empowers users to showcase their GeeksforGeeks problem-solving skills on GitHub profiles and personal websites.",
+                "Developed server-side logic with Node.js and Express.js, crafted stats card with JavaScript, jQuery and CSS."
+            ],
+            "techUsed": [
+                "Node JS",
+                "Express JS",
+                "JavaScript",
+                "jQuery"
+            ]
+        },
+        {
             "heading": "Simple Mario Game",
-            "link": "https://github.com/nikhilpal2705?tab=repositories",
+            "link": "https://github.com/nikhilpal2705/Mario-Game-Project",
             "description": [
                 "Developed Mario Game as an Internship project.",
                 "The game includes a moving dragon which throws fireballs and players have to save Mario from those fireballs using direction keys.",
@@ -44,6 +57,23 @@
             "techUsed": [
                 "Python",
                 "PyCharm"
+            ]
+        },
+        {
+            "heading": "Vehicle Tracking System",
+            "link": "https://github.com/nikhilpal2705/vts",
+            "description": [
+                "Developed an android app for client (driver) which uses the device's GPS and updates its location in the database for active monitoring and efficient transportation of goods.",
+                "Developed a full-stack web application for admin to manage the driver and view the driver's real-time location.",
+                "Implemented common database for admin's web application and driver's android app using Firebase database."
+            ],
+            "techUsed": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Android Studio",
+                "Firebase Database"
             ]
         },
         {
@@ -74,6 +104,7 @@
                 "HTML",
                 "CSS",
                 "JavaScript",
+                "jQuery",
                 "GitHub"
             ]
         }
@@ -87,49 +118,54 @@
                     "name": "C"
                 },
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
                     "icon": "devicon-java-plain",
-                    "name": "Core Java"
-                }
-            ]
-        },
-        {
-            "category": "Web Development",
-            "skillSets": [
-                {
-                    "icon": "devicon-html5-plain",
-                    "name": "HTML5"
+                    "name": "Java"
                 },
                 {
                     "icon": "devicon-javascript-plain",
                     "name": "JavaScript"
                 },
                 {
-                    "icon": "devicon-jquery-plain",
-                    "name": "jQuery"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ]
+        },
+        {
+            "category": "Frontend",
+            "skillSets": [
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React JS"
+                },
+                {
+                    "icon": "devicon-redux-original",
+                    "name": "Redux"
                 },
                 {
                     "icon": "devicon-vuejs-plain",
                     "name": "Vue3"
                 },
                 {
+                    "icon": "devicon-jquery-plain",
+                    "name": "jQuery"
+                }
+            ]
+        },
+        {
+            "category": "Backend",
+            "skillSets": [
+                {
                     "icon": "devicon-nodejs-plain",
                     "name": "Node JS"
                 },
                 {
-                    "icon": "devicon-php-plain",
-                    "name": "php"
+                    "icon": "devicon-express-original",
+                    "name": "Express JS"
                 },
                 {
-                    "icon": "fas fa-circle",
-                    "name": "ajax"
-                },
-                {
-                    "icon": "devicon-css3-plain",
-                    "name": "CSS"
+                    "icon": "devicon-spring-original",
+                    "name": "Spring Boot"
                 }
             ]
         },
@@ -151,7 +187,24 @@
             ]
         },
         {
-            "category": "Developer Tool",
+            "category": "DevOps",
+            "skillSets": [
+                {
+                    "icon": "devicon-docker-plain",
+                    "name": "Docker"
+                },
+                {
+                    "icon": "fab fa-aws",
+                    "name": "AWS"
+                },
+                {
+                    "icon": "devicon-heroku-plain",
+                    "name": "Heroku"
+                }
+            ]
+        },
+        {
+            "category": "Tools",
             "skillSets": [
                 {
                     "icon": "devicon-vscode-plain",
@@ -170,46 +223,8 @@
                     "name": "GitLab"
                 },
                 {
-                    "icon": "devicon-androidstudio-plain",
-                    "name": "Android Studio"
-                }
-            ]
-        },
-        {
-            "category": "Familiar With",
-            "skillSets": [
-                {
-                    "icon": "fas fa-circle",
-                    "name": "Data Structures and Algorithms"
-                },
-                {
-                    "icon": "fab fa-aws",
-                    "name": "AWS"
-                },
-                {
-                    "icon": "devicon-heroku-plain",
-                    "name": "Heroku"
-                }
-            ]
-        },
-        {
-            "category": "Operating System",
-            "skillSets": [
-                {
-                    "icon": "devicon-android-plain",
-                    "name": "Android"
-                },
-                {
                     "icon": "devicon-linux-plain",
                     "name": "Linux"
-                },
-                {
-                    "icon": "devicon-windows8-plain",
-                    "name": "Windows"
-                },
-                {
-                    "icon": "devicon-apple-plain",
-                    "name": "macOS"
                 }
             ]
         }
