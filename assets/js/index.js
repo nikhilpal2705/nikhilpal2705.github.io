@@ -3,19 +3,17 @@ $(document).ready(() => {
         url: 'assets/data.json',
         dataType: 'json',
         success: function (data) {
-            displayData(data)
+            displayProjects(data.projects)
+            displaySkills(data.skills)
+            bindLinks(data.links)
         },
         error: function (xhr, status, error) {
             console.error('There was a problem with the AJAX request:', error);
         }
     });
 
-    function displayData(data) {
-        const projects = data.projects;
-        const skills = data.skills;
+    function displayProjects(projects) {
         let projectHTML = '';
-        let skillHTML = '';
-
         for (let i = 0; i < projects.length; i++) {
             const project = projects[i];
             const isEven = i % 2 === 0;
@@ -36,7 +34,10 @@ $(document).ready(() => {
             }
         }
         $('#projects_section').html(projectHTML);
+    }
 
+    function displaySkills(skills) {
+        let skillHTML = '';
         for (let i = 0; i < skills.length; i++) {
             const skill = skills[i];
 
@@ -56,6 +57,15 @@ $(document).ready(() => {
             }
         }
         $('#skills_section').html(skillHTML);
+    }
+
+    function bindLinks(links) {
+        $('.email').attr('href', "mailto:" + links.email);
+        $('.linkedin').attr('href', links.linkedin);
+        $('.github').attr('href', links.github);
+        $('.telegram').attr('href', links.telegram);
+        $('.twitter').attr('href', links.twitter);
+        $('.resume').attr('href', links.resume);
     }
 
     // Show About container
@@ -128,11 +138,6 @@ $(document).ready(() => {
             $("#contact_container").removeClass("animate__slideOutDown animate__animated");
             $("#contact_container").css("display", "none");
         }, 400);
-    });
-
-    // Show Resume
-    $(".resume").click(function () {
-        window.open("https://drive.google.com/drive/folders/1ShUGu7phuU3IquAm8sgZ8kkeNOzv5U0_?usp=share_link");
     });
 
     // Show Loader on page load

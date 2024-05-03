@@ -257,6 +257,10 @@ body {
     text-decoration: none;
 }
 
+#resume {
+    text-decoration: none !important
+}
+
 .contact i {
     font-size: 32px;
 }

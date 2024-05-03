@@ -228,5 +228,13 @@
                 }
             ]
         }
-    ]
+    ],
+    "links": {
+        "email": "nsuryavanshi.dev@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nikhilpal2705",
+        "github": "https://github.com/nikhilpal2705",
+        "telegram": "https://t.me/nikhilpal2705",
+        "twitter": "https://twitter.com/nikhilpal2705",
+        "resume": "https://drive.google.com/drive/folders/1YGYat6G7YPisYaq7OZqf2DdUl4a_N6kp?usp=sharing"
+    }
 }
