@@ -297,7 +297,7 @@ body {
     text-decoration: underline;
 }
 
-.container p {
+.container p, li {
     font-size: 21px;
 }
 

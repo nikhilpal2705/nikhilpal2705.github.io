@@ -124,10 +124,6 @@
                 {
                     "icon": "devicon-javascript-plain",
                     "name": "JavaScript"
-                },
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
                 }
             ]
         },
@@ -200,16 +196,17 @@
                 {
                     "icon": "devicon-heroku-plain",
                     "name": "Heroku"
+                },
+
+                {
+                    "icon": "devicon-vercel-plain",
+                    "name": "Vercel"
                 }
             ]
         },
         {
             "category": "Tools",
             "skillSets": [
-                {
-                    "icon": "devicon-vscode-plain",
-                    "name": "VS Code"
-                },
                 {
                     "icon": "devicon-git-plain",
                     "name": "Git"
@@ -221,6 +218,14 @@
                 {
                     "icon": "devicon-gitlab-plain",
                     "name": "GitLab"
+                },
+                {
+                    "icon": "devicon-jenkins-plain",
+                    "name": "Jenkins"
+                },
+                {
+                    "icon": "devicon-jira-plain",
+                    "name": "Jira"
                 },
                 {
                     "icon": "devicon-linux-plain",
