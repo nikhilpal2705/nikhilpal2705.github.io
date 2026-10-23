@@ -14,6 +14,28 @@
                 "Spring Boot",
                 "MySQL",
                 "Ant Design"
+            ],
+            "sampleLinks": [
+                "https://agrocare-m8hl.onrender.com"
+            ]
+        },
+        {
+            "heading": "React Portfolio",
+            "link": "https://github.com/nikhilpal2705/React-Portfolio",
+            "description": [
+                "Modern, responsive personal developer portfolio built with React 19, Vite, and Bootstrap.",
+                "Features dark/light theme switching, animated UI transitions, interactive project showcases, and coding profile integrations.",
+                "Optimized production bundle with zero-warning code quality and deployed on Vercel."
+            ],
+            "techUsed": [
+                "React JS",
+                "Vite",
+                "Bootstrap",
+                "CSS3",
+                "Vercel"
+            ],
+            "sampleLinks": [
+                "https://suryavanshi.vercel.app"
             ]
         },
         {
@@ -44,6 +66,9 @@
                 "Express JS",
                 "JavaScript",
                 "jQuery"
+            ],
+            "sampleLinks": [
+                "https://gfgstatscard.vercel.app/"
             ]
         },
         {
@@ -61,7 +86,7 @@
         },
         {
             "heading": "Vehicle Tracking System",
-            "link": "https://github.com/nikhilpal2705/vts",
+            "link": "https://github.com/nikhilpal2705/VTS",
             "description": [
                 "Developed an android app for client (driver) which uses the device's GPS and updates its location in the database for active monitoring and efficient transportation of goods.",
                 "Developed a full-stack web application for admin to manage the driver and view the driver's real-time location.",
@@ -239,7 +264,7 @@
         "linkedin": "https://www.linkedin.com/in/nikhilpal2705",
         "github": "https://github.com/nikhilpal2705",
         "telegram": "https://t.me/nikhilpal2705",
-        "twitter": "https://twitter.com/nikhilpal2705",
+        "twitter": "https://x.com/nikhilpal2705",
         "resume": "https://drive.google.com/drive/folders/1YGYat6G7YPisYaq7OZqf2DdUl4a_N6kp?usp=sharing"
     }
 }

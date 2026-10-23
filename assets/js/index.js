@@ -26,7 +26,7 @@ $(document).ready(() => {
                     <h2><a href="${project.link}" target="_blank" rel="noopener noreferrer">${project.heading}</a></h2>
                     <p>${project.description ? project.description?.map(desc => `• ${desc}<br><br>`).join('') : ''}</p>
                     <div id="techused">${project.techUsed ? project.techUsed.map(tech => `<div><i class="fas fa-circle"></i>&nbsp;${tech}</div>`).join('') : ''}</div>
-                    ${project.sampleLinks ? project.sampleLinks.map((link, idx) => `<a href="${link}" target="_blank" rel="noopener noreferrer"><button class="btn_one">Link ${idx + 1}</button></a>`).join('') : ''}
+                    ${project.sampleLinks ? project.sampleLinks.map((link, idx) => `<a href="${link}" target="_blank" rel="noopener noreferrer"><button class="btn_one">${project.sampleLinks.length === 1 ? 'Live Demo' : `Link ${idx + 1}`}</button></a>`).join('') : ''}
                 </div>`;
 
             if (!isEven || i + 1 === projects.length) {
@@ -61,12 +61,23 @@ $(document).ready(() => {
 
     function bindLinks(links) {
         $('.email').attr('href', "mailto:" + links.email);
-        $('.linkedin').attr('href', links.linkedin);
-        $('.github').attr('href', links.github);
-        $('.telegram').attr('href', links.telegram);
-        $('.twitter').attr('href', links.twitter);
-        $('.resume').attr('href', links.resume);
+        $('.linkedin').attr('href', links.linkedin).attr('target', '_blank').attr('rel', 'noopener noreferrer');
+        $('.github').attr('href', links.github).attr('target', '_blank').attr('rel', 'noopener noreferrer');
+        $('.telegram').attr('href', links.telegram).attr('target', '_blank').attr('rel', 'noopener noreferrer');
+        $('.twitter').attr('href', links.twitter).attr('target', '_blank').attr('rel', 'noopener noreferrer');
+        $('.resume').attr('href', links.resume).attr('target', '_blank').attr('rel', 'noopener noreferrer');
+
+        const startCareer = new Date("2023-02-13");
+        const yearsExp = ((new Date() - startCareer) / (1000 * 60 * 60 * 24 * 365.25)).toFixed(1);
+        $('#years_experience').text(yearsExp + "+");
     }
+
+    // Keyboard navigation: Escape key closes any open modal container
+    $(document).on('keydown', function (e) {
+        if (e.key === 'Escape' || e.keyCode === 27) {
+            $('.container:visible .button').trigger('click');
+        }
+    });
 
     // Show About container
     $(".about").click(function (e) {
